@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.background_banner {
+		@apply bg-gradient-to-tr from-indigo-800 to-violet-900;
+	}
+
+	.background_main {
+		@apply bg-gradient-to-br from-blue-800  to-purple-900;
+	}
+
+	.background_footer {
+		@apply bg-gradient-to-tr from-blue-900  to-violet-700;
+	}
+
+	.background_gradien-text {
+		@apply bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-fuchsia-300;
+	}
+
+	.background_button {
+		@apply bg-gradient-to-tr from-blue-900  to-violet-700;
+	}
+
+	.common_padding-inline {
+		@apply px-4 sm:px-6 md:px-8;
+	}
+
+	.common_padding {
+		@apply px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4;
+	}
+}
